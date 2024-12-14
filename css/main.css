@@ -199,7 +199,7 @@ h5 {
   display: flex;
   column-gap: 2.6rem;
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .nav-btn {
@@ -207,7 +207,7 @@ h5 {
 }
 
 .nav-link {
-  color: var(--gray-text-color);
+  color: #afafaf;
   }
 
 .nav-link:hover{
@@ -217,7 +217,7 @@ h5 {
 
 .nav-link.active {
   color: var(--secondary-accent);
-  font-weight: 600;
+  font-weight: bold;
   
 }
 
