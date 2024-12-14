@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-bg-color: #f7fbfd;
-  --primary-accent: #0c1618;
-  --secondary-accent: #003572;
+  --primary-bg-color: #272727;
+  --primary-accent: #1eff00;
+  --secondary-accent: #1eff00;
 
-  --main-text-color: #0c1618;
-  --gray-text-color: #565a5b;
+  --main-text-color: #ffffff;
+  --gray-text-color: #ffffff;
 
   --white-color: #fff;
   --gray-color: #e9e8e8;
@@ -210,7 +210,7 @@ h5 {
 }
 
 .nav-link:hover{
-    color: #003561;
+    color: #1eff00;
     font-weight: 500;
   }
 
@@ -298,6 +298,7 @@ h5 {
 /* About section */
 .about {
   padding: 10rem 0;
+  background-color: #272727;
 }
 
 .about-title {
@@ -499,6 +500,7 @@ h5 {
 .contact {
   padding: 10rem 0;
   text-align: center;
+  background-color: #272727;
 }
 
 .contact-title {
@@ -542,7 +544,7 @@ h5 {
 
 /* Footer */
 .footer {
-  background-color: var(--primary-accent);
+  background-color: #272727;
   color: var(--gray-color-3);
 }
 
