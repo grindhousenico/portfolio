@@ -54,7 +54,7 @@ body {
 .btn {
   display: inline-block;
   height: 5.2rem;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -140,6 +140,7 @@ h5 {
 .header {
   z-index: 100;
   background-color: transparent;
+  opacity: 1.5;
   height: 7.2rem;
   width: 100%;
   position: absolute;
@@ -197,7 +198,7 @@ h5 {
 .nav-list {
   display: flex;
   column-gap: 2.6rem;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 1.6rem;
 }
 
@@ -207,7 +208,7 @@ h5 {
 
 .nav-link {
   color: var(--gray-text-color);
-}
+  }
 
 .nav-link:hover{
     color: #1eff00;
